@@ -9,7 +9,7 @@ const ThanksCard = () => {
       <main>
         <section className="ThanksCard">
         <img src={ thanks } alt="" />
-        <p className='ratingNote'>You selected {} out of 5</p>
+        <p className='ratingNote'>You selected out of 5</p>
         <div className="paragraph">
           <h1>Thank you!</h1>
           <p> 

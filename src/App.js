@@ -5,12 +5,12 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route exact path='/' component={RatingCard}/>
-        <Route path='/thanks' component={ThanksCard}/>
-      </Switch>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path='/' component={RatingCard}/>
+          <Route path='/thanks' component={ThanksCard}/>
+        </Switch>
+      </BrowserRouter>
   );
 }
 

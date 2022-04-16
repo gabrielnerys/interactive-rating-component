@@ -6,7 +6,7 @@ import myContext from '../Context/myContext';
 import './RatingCard.css';
 
 const RatingCard = () => {
-  const { handleClick } = useContext(myContext);
+  const { handleClick, isClicked } = useContext(myContext);
   const history = useHistory();
 
   return (
@@ -25,6 +25,7 @@ const RatingCard = () => {
             <button
               type='button'
               value='1'
+              className={isClicked ? "clicked" : ""}
               onClick={ handleClick }
             >
               1
@@ -32,6 +33,7 @@ const RatingCard = () => {
             <button
               type='button'
               value='2'
+              className={isClicked ? "clicked" : ""}
               onClick={ handleClick }
             >
               2
@@ -39,6 +41,7 @@ const RatingCard = () => {
             <button
               type='button'
               value='3'
+              className={isClicked ? "clicked" : ""}
               onClick={ handleClick }
             >
               3
@@ -46,6 +49,7 @@ const RatingCard = () => {
             <button
               type='button'
               value='4'
+              className={isClicked ? "clicked" : ""}
               onClick={ handleClick }
             >
               4
@@ -53,6 +57,7 @@ const RatingCard = () => {
             <button
               type='button'
               value='5'
+              className={isClicked ? "clicked" : ""}
               onClick={ handleClick }
             >
               5

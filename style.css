@@ -37,24 +37,26 @@ body {
 .rating {
   display: flex;
   justify-content: space-around;
-  color: hsl(217, 12%, 63%);
 }
 
-.rating p {
+.rating button {
   background-color: hsl(210, 11%, 26%);
-  padding: 7px 14px;
+  color: hsl(217, 12%, 63%);
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
+  border-style: none;
   margin: 20px 10px;
   font-weight: bolder;
 }
 
-.rating p:hover {
+.rating button:hover {
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
   cursor: pointer;
 }
 
-button {
+.submit {
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
   border-style: none;
@@ -63,7 +65,7 @@ button {
   font-weight: bolder;
 }
 
-button:hover {
+.submit:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
   cursor: pointer;
@@ -72,7 +74,10 @@ button:hover {
 
 footer {
   color: hsl(0, 0%, 100%);
+  font-size: 11px;
+  text-align: center;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+footer a {
+  color: hsl(228, 45%, 44%);
+}

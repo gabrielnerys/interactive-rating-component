@@ -1,0 +1,78 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vh;
+  align-items: center;
+  font-family: 'Overpass', sans-serif;
+}
+
+.card {
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  flex-direction: column;
+  max-width: 45vh;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.card img {
+  width: 15px;
+  background-color: hsl(212, 12%, 25%);
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.paragraph h1 {
+  color: hsl(0, 0%, 100%);
+  margin: 20px auto;
+}
+
+.paragraph p {
+  color: hsl(217, 12%, 63%);
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-around;
+  color: hsl(217, 12%, 63%);
+}
+
+.rating p {
+  background-color: hsl(210, 11%, 26%);
+  padding: 7px 14px;
+  border-radius: 50%;
+  margin: 20px 10px;
+  font-weight: bolder;
+}
+
+.rating p:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+button {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border-style: none;
+  padding: 10px;
+  border-radius: 50px;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+
+}
+
+footer {
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
